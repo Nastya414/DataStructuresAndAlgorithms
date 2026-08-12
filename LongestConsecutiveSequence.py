@@ -7,6 +7,8 @@ class Solution:
             result_list.append(1)
         elif len(nums1)==0:
             result_list.append(0)
+    #         if len(nums1)<=1:
+    #              result_list.append(len(nums1)) ///or this approach to the edge cases
         for i in range(len(nums1)-1):
             num1=nums1[i]
             num2=nums1[i+1]
